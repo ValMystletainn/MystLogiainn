@@ -1,4 +1,4 @@
-# Blog
+# MystLogiainn
 
 This is a simple blog of my random thoughts, projects and ideas.
 
