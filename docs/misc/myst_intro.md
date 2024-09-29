@@ -1,26 +1,15 @@
 ---
-title: How to Myst, without being mystified 🧙
-subject: Tutorial
-subtitle: Evolve your markdown documents into structured data
-short_title: 怎么用 Myst
+title: 提升阅读体验的 markdown 黑魔法 MyST
+subtitle: 更新更好的 markdown 体验
+short_title: MyST 介绍
 authors:
-    - name: wwx
-      affiliations:
-        - Executable Books
-        - Curvenote
-      orcid: 0000-0002-7859-8394
-      email: rowan@curvenote.com
-license: CC-BY-4.0
-keywords: myst, markdown, open-science
-abstract: |
-    We introduce, a set of open-source, community-driven tools for MyST Markdown ([myst.tools](https://myst.tools)) designed for scientific communication, including a powerful authoring framework that supports blogs, online books, scientific papers, reports and journals articles."
-
-    new line para
-dedication: "what can i say"
-exports:
-  - format: md
-
+    - name: wu wenxu
+keywords: myst, markdown, blog
 ---
+
+## 背景和动机
+
+## 了解
 
 ## Background
 
@@ -210,11 +199,33 @@ print(phrase)
 :label: test
 ![alt text show in figure](../image.png)
 
-```{kroki} ../xyz.123
-:src: tikz
+```{kroki}
+:src: plantuml
 :alt: "test"
 :align: left
 :width: 200
+
+skinparam ranksep 20
+skinparam dpi 125
+skinparam packageTitleAlignment left
+
+rectangle "Main" {
+  (main.view)
+  (singleton)
+}
+rectangle "Base" {
+  (base.component)
+  (component)
+  (model)
+}
+rectangle "<b>main.ts</b>" as main_ts
+
+(component) ..> (base.component)
+main_ts ==> (main.view)
+(main.view) --> (component)
+(main.view) ...> (singleton)
+(singleton) ---> (model)
+
 ```
 
 ````
