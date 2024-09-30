@@ -9,6 +9,7 @@ project:
   license:
     code: MIT
     content: CC-BY-4.0
+  numbering: true
   plugins:
     - type: javascript
       path: ../src/myst_extension/js/kroki.mjs
