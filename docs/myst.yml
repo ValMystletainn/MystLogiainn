@@ -18,6 +18,7 @@ project:
       file: misc/README.md
       children:
         - file: misc/myst_intro.md
+        - file: misc/python_hotreload_debug.md
     
 site:
   template: book-theme
