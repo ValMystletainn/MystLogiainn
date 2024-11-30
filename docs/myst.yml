@@ -19,6 +19,7 @@ project:
       children:
         - file: misc/myst_intro.md
         - file: misc/python_hotreload_debug.md
+        - file: misc/jsonargparse.md
     
 site:
   template: book-theme
