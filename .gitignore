@@ -305,3 +305,6 @@ dist
 
 docs/package-lock.json
 docs/package.json
+
+## sketchpad
+sketchpad/
