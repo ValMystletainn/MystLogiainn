@@ -20,6 +20,12 @@ project:
         - file: misc/myst_intro.md
         - file: misc/python_hotreload_debug.md
         - file: misc/jsonargparse.md
+    - title: 深度学习
+      children:
+        - title: 生成模型串讲
+          file: deep_learning/genai_101/intro.md
+          children:
+            - file: deep_learning/genai_101/sampling.md
     
 site:
   template: book-theme
