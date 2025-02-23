@@ -26,6 +26,7 @@ project:
           file: deep_learning/genai_101/intro.md
           children:
             - file: deep_learning/genai_101/sampling.md
+            - file: deep_learning/genai_101/fitting.md
     
 site:
   template: book-theme
