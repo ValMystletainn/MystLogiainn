@@ -1,5 +1,5 @@
 ---
-title: 自回归 - 逐个击破，登临无穷
+title: 自回归
 keywords: "generative model"
 ---
 
